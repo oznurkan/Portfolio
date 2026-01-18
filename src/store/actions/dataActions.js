@@ -30,7 +30,7 @@ export const fetchData = (lang) => {
         );
         console.log("Reqres POST işlemi başarılı.");
       } catch (apiError) {
-        console.warn("Reqres API hatası (Muhtemelen CORS):", apiError.message);
+        console.warn("Reqres API hatası:", apiError.message);
       }
 
     } catch (error) {

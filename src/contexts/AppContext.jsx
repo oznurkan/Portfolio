@@ -11,18 +11,16 @@ export const AppProvider = ({children}) => {
     const [ mode, setMode ] = useLocalStorage("mode", "light")
 
    useEffect(() => {
-  if (mode === "dark") {
-    document.documentElement.classList.add("dark");
-    localStorage.setItem("theme", "dark");
-  } else {
-    document.documentElement.classList.remove("dark");
-    localStorage.setItem("theme", "light");
-  }
-}, [mode]); 
+      if (mode === "dark") {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    }, [mode]); 
 
-const handleToggleMode = () => {
-  setMode((prevMode) => (prevMode === "light" ? "dark" : "light"));
-};
+    const handleToggleMode = () => {
+      setMode((prevMode) => (prevMode === "light" ? "dark" : "light"));
+    };
     const handleLang = () => {
         const nextLang = lang === "en" ? "tr" : "en";
         setLang(nextLang);
