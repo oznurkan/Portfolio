@@ -34,7 +34,7 @@ const Profile = () => {
           {profileSection.title}
         </h1>
         <div className="flex gap-18 items-center justify-center flex-wrap w-[84%] ">
-          <div className="relative flex-3 lg:flex-1">
+          <div className="relative lg:flex-1">
             <div className="absolute top-2 left-2 w-full h-full bg-custom-bold-gray-circle/50 dark:bg-dark-profile-card border-none rounded-xl z-0"></div>
             <div className="relative w-full h-full bg-white dark:bg-custom-bold-gray-circle border-2 border-none rounded-xl z-10 pl-9 pr-7 pt-3">
               <div className="flex flex-col py-12 gap-8">
@@ -57,7 +57,7 @@ const Profile = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-6 flex-2 items-start mb-auto pt-11 lg:flex-1">
+          <div className="flex flex-col gap-6 items-start mb-auto pt-11 lg:flex-1">
             <h2 className="font-playfair text-2xl font-normal leading-[100%] text-custom-text-black dark:text-white ">
               <span
                 className={`aboutme-highlighter ${isVisible ? "active" : ""}`}

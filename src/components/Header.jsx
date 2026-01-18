@@ -29,7 +29,7 @@ const Header = () => {
       <div className="absolute bottom-0 right-[20%] w-30 h-30 bg-custom-thin-gray-circle dark:bg-custom-bold-gray-circle rounded-t-[100%] translate-y-1/2 z-1 "></div>
       <div className="absolute bottom-0 right-[21.30%] w-20 h-20 bg-custom-gray dark:bg-dark-header rounded-t-[100%] translate-y-1/2 z-2 "></div>
 
-      <div className="flex flex-col w-[75%] gap-3 my-6 mx-auto justify-around relative z-9 h-[80%] xs:gap-0 xl:gap-15 ">
+      <div className="flex flex-col w-[75%] gap-3 my-6 mx-auto justify-around relative z-9 h-[80%] xs:gap-0 xl:gap-8 ">
         <nav className="flex items-center justify-end ml-auto max-w-90 gap-2 py-4 xs:text-sm md:aspect-[359 / 38] ">
           <div className="flex items-center gap-4">
             <div
@@ -119,7 +119,7 @@ const Header = () => {
               );
             })}
             </div>
-            <div className="text-lg xs:hidden sm:block">
+            <div className="text-lg xs:hidden xl:block">
               {heroSection?.ctaHtml}{" "}
               <span className="text-custom-pink">{heroSection?.status}</span>{" "}
               {heroSection?.ctaHtml_2}{" "}
