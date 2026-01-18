@@ -1,0 +1,276 @@
+{
+    "en" :{
+        "heroSection": {
+            "greeting": "Hi!",
+            "intro":"I'm Öznur. I'm a Software Engineer. I can craft solid and scalable Full-Stack products. Let’s meet! ",
+            "profileImage": "/assets/hero/profile.jpg",
+            "socials": [
+                {
+                    "id": "1",
+                    "logo":"/assets/hero/linkedin.png",
+                    "altText": "linkedin profile link",
+                    "link": "https://www.linkedin.com/in/kanoznur/"
+                },
+                {
+                    "id": "2",
+                    "logo":"/assets/hero/github.png",
+                    "altText": "github profile link",
+                    "link": "https://github.com/oznurkan"
+                }
+            ],
+            "ctaHtml": "Currently",
+            "ctaHtml_2": " for ",
+            "status": "Freelancing",
+            "fields": "UX, UI, & Full-Stack Web Development ",
+            "ctaHtml_3": " Project . ",
+            "callToAction": "Invite me to join your team ",
+            "ctaEmailLink" : "oznurkan35@gmail.com"
+        },
+        "skillsSection": {
+            "title": "Skills",
+            "skills": [
+                {
+                    "id": "1",
+                    "name": "Javascript",
+                    "icon": "/assets/skills/js.png"
+                },           
+                {
+                    "id": "2",
+                    "name": "react",
+                    "icon": "/assets/skills/react.png"
+                },
+                {
+                    "id": "3",
+                    "name": "redux",
+                    "icon": "/assets/skills/redux.png"
+                }, 
+                {
+                    "id": "4",
+                    "name": "angular",
+                    "icon": "/assets/skills/angular.png"
+                },
+                {
+                    "id": "5",
+                    "name": "java",
+                    "icon": "/assets/skills/java.png"
+                },               
+                {
+                    "id": "6",
+                    "name": "c#",
+                    "icon": "/assets/skills/c-sharp.png"
+                }
+            ]
+        },
+        "profileSection": {
+            "title": "Profile",
+            "subtitle": "Basic Information",
+            "technicalInformation": [
+                {
+                    "id": "1",
+                    "name": "Date of birth :",
+                    "text": "08.09.1999"
+                },
+                {
+                    "id": "2",
+                    "name": "City of Residence :",
+                    "text": "İzmir"
+                },
+                {
+                    "id": "3",
+                    "name": "Educational Status :",
+                    "text": "Çanakkale Onsekiz Mart University, Software Engineer, Bachelor's Degree, 2024"
+                },
+                {
+                    "id": "4",
+                    "name": "Her Preferred Role :",
+                    "text": "Software Engineer"
+                }
+            ],
+            "personalInformation": {
+                "title": "About Me",
+                "text": "As a 2024 Computer Engineering graduate from Çanakkale Onsekiz Mart University, I specialize in building end-to-end digital solutions. My expertise spans across  ",
+                "fields" : "Frontend (React.js, JavaScript), Backend (Java),",
+                "fields_2" : "Computer Vision",
+                "text_2" : "and",
+                "text_3": "Having completed an intensive 6-month software academy, I am now focused on applying my full-stack capabilities to scalable, real-world projects and contributing to innovative development teams. "
+
+            }
+  
+        },
+        "projectSection": {
+            "title": "Projects",
+            "projects": [
+                {
+                    "id": "1",
+                    "name": "Portfolio",
+                    "description": "Featuring personal background information, this project employs Redux and middleware to unify state handling within a single structure.",
+                    "tags": ["react", "redux", "middleware", "redux-thunk", "tailwindcss", "axios"],
+                    "githubLink": "https://github.com/oznurkan",
+                    "github": "View on Github",
+                    "websiteLink": "https://github.com/oznurkan",
+                    "website": "Go to App",
+                    "imgComputer": "/assets/project/bilgisayar.png",
+                    "imgProject": "/assets/project/gorsel-1.png"
+                },
+                {
+                    "id": "2",
+                    "name": "Pizza Order Project",
+                    "description": "A React-based pizza ordering application featuring dynamic order customization and form validation to ensure all mandatory selections are completed before checkout.",
+                    "tags": ["react", "axios", "cypress", "router"],
+                    "githubLink": "https://github.com/oznurkan/Pizza-Order-Project",
+                    "github": "View on Github",
+                    "websiteLink": "https://pizza-order-project-xi.vercel.app/",
+                    "website": "Go to App",
+                    "imgComputer": "/assets/project/bilgisayar.png",
+                    "imgProject": "/assets/project/pizza.png"
+                }
+
+            ]
+            
+        },
+        "footerSection": {
+            "text": "Let’s work together on",
+            "text_2": "your next product.",
+            "github": "github",
+            "githubLink": "https://github.com/oznurkan",
+            "personal": "personal blog",
+            "personalLink": "https://github.com/oznurkan",
+            "linkedin": "linkedin",
+            "linkedinLink": "https://www.linkedin.com/in/kanoznur/",
+            "email": "e-mail",
+            "emailLink": "oznurkan35@gmail.com"
+        }
+    },
+    "tr" :{
+        "heroSection": {
+            "greeting": "Merhaba !",
+            "intro":"Ben Öznur. Bilgisayar mühendisiyim. Ön yüz ve arka yüz alanlarında ürünler geliştiriyorum. Haydi tanışalım ! ",
+            "profileImage": "/assets/hero/profile.jpg",
+            "socials": [
+                {
+                    "id": "1",
+                    "logo":"/assets/hero/linkedin.png",
+                    "altText": "linkedin kişisel hesap adresidir",
+                    "link": "https://www.linkedin.com/in/kanoznur/"
+                },
+                {
+                    "id": "2",
+                    "logo":"/assets/hero/github.png",
+                    "altText": "github kişisel hesap adresidir",
+                    "link": "https://github.com/oznurkan"
+                }
+                
+            ],
+            "ctaHtml": "Şu anda ",
+            "fields": "UX, UI ve Full-Stack Web Geliştirme ",
+            "callToAction": "Ekibinize beni katmak isterseniz ,benimle iletişime geçin ",
+            "ctaHtml_3": "  projeleri yapıyorum . ",
+            "ctaEmailLink" : "oznurkan35@gmail.com"
+        },
+        "skillsSection": {
+            "title": "Yetenekler",
+            "skills": [
+                {
+                    "name": "Javascript",
+                    "icon": "/assets/skills/js.png"
+                },           
+                {
+                    "name": "react",
+                    "icon": "/assets/skills/react.png"
+                },
+                {
+                    "name": "redux",
+                    "icon": "/assets/skills/redux.png"
+                }, 
+                {
+                    "name": "angular",
+                    "icon": "/assets/skills/angular.png"
+                },
+                {
+                    "name": "java",
+                    "icon": "/assets/skills/java.png"
+                },               
+                {
+                    "name": "c#",
+                    "icon": "/assets/skills/c-sharp.png"
+                }
+            ]
+        },
+        "profileSection": {
+            "title": "Kişisel Bilgiler",
+            "subtitle": "Bilgilerim",
+            "technicalInformation": [
+                {
+                    "name": "Doğum Tarihi :",
+                    "text": "08.09.1999"
+                },
+                {
+                    "name": "İkamet Şehri :",
+                    "text": "İzmir"
+                },
+                {
+                    "name": "Eğitim Durumu :",
+                    "text": "Çanakkale Onsekiz Mart Üniversitesi, Bilgisayar Mühendisliği, Lisans, 2024"
+                },
+                {
+                    "name": "Tercih Ettiği Rol :",
+                    "text": "Bilgisayar Mühendisi"
+                }
+            ],
+            "personalInformation": {
+                "title": "Hakkımda",
+                "text": "Bilgisayar mühendisliği mezunuyum. Lisans eğitimim ve mezuniyetim sonrasında ",
+                "fields" : "Önyüz (React.js, JavaScript), ArkaYüz (Java)",
+                "text_2":" ve ",
+                "fields_2" : "Görüntü işleme",
+                "text_3": " üzerine projeler yaptım, 6 aylık süren yoğun full-stack yazılım kampı ile tam yığın yeteneklerimi ölçeklenebilir, gerçek dünya projelerine uygulamaya ve yenilikçi geliştirme ekiplerine katkıda bulunmaya odaklanıyorum."
+
+            }
+  
+        },
+        "projectSection": {
+            "title": "Projeler",
+            "projects": [
+                {
+                    "id": "1",
+                    "name": "Portfolio",
+                    "description": "Projede özgeçmiş bilgileri verilmiştir, proje içerisinde durum bilgilerini tek bir çatı altında toplayan redux ve middleware yapısı oluşturulmuştur",
+                    "tags": ["react", "redux", "middleware", "redux-thunk", "tailwindcss", "axios"],
+                    "githubLink": "https://github.com/oznurkan",
+                    "github": "Github",
+                    "websiteLink": "https://github.com/oznurkan",
+                    "website": "Web siteye git",
+                    "imgComputer": "/assets/project/bilgisayar.png",
+                    "imgProject": "/assets/project/gorsel-1.png"
+                },
+                {
+                    "id": "2",
+                    "name": "Pizza Şipariş Projesi",
+                    "description": "Projede istenilen pizza ile pizza siparişi alınan ve sipariş esnasında doldurulması zorunlu olan seçeneklerin kontrolünün yapıldığı bir react projesidir. ",
+                    "tags": ["react", "axios", "cypress", "router"],
+                    "githubLink": "https://github.com/oznurkan/Pizza-Order-Project",
+                    "github": "Github",
+                    "websiteLink": "https://pizza-order-project-xi.vercel.app/",
+                    "website": "Web siteye git",
+                    "imgComputer": "/assets/project/bilgisayar.png",
+                    "imgProject": "/assets/project/pizza.png"
+                }
+
+            ]
+            
+        },
+        "footerSection": {
+            "text": "Yazılım dünyasında beraber çalışabiliriz",
+            "text_2": "Bir sonraki proje için",
+            "github": "github",
+            "githubLink": "https://github.com/oznurkan",
+            "personal": "Kişisel Web Sitesi",
+            "personalLink": "https://github.com/oznurkan",
+            "linkedin": "linkedin",
+            "linkedinLink": "https://www.linkedin.com/in/kanoznur/",
+            "email": "e-mail",
+            "emailLink": "oznurkan35@gmail.com"
+        }
+        
+    }
+}
