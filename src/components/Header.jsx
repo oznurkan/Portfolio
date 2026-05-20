@@ -1,22 +1,13 @@
-import { useContext, useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useContext} from "react";
+import { useSelector } from "react-redux";
 import AppContext from "../contexts/AppContext";
-import { fetchData } from "../store/actions/dataActions";
 import { useElementOnScreen } from "../hooks/useElementOnScreen";
 
 const Header = () => {
-  const { lang, mode, handleToggleMode, handleLang } = useContext(AppContext);
-
-  const dispatch = useDispatch();
-
-  const { content, loading } = useSelector((state) => state.data);
+const { lang, mode, handleToggleMode, handleLang } = useContext(AppContext);
+  const { content } = useSelector((state) => state.data);
   const [targetRef, isVisible] = useElementOnScreen({ threshold: 0.1 });
 
-  useEffect(() => {
-    dispatch(fetchData(lang));
-  }, [lang, dispatch]);
-
-  if (loading) return <div>{ lang === "en" ? "Loading ...": "Yükleniyor..."}</div>;
   if (!content) return null;
 
   const { heroSection } = content;
@@ -97,7 +88,7 @@ const Header = () => {
             <div className="font-inter font-normal inline-flex text-3xl ">
               {heroSection.greeting} 👋
             </div>
-            <div className="font-inter font-medium leading-16 text-[42px]">
+            <div className="font-inter font-medium leading-16 text-3xl xs:text-[42px]">
               <span className={`hero-highlight ${isVisible ? 'active' : ''}`}>{heroSection.intro}</span>
             </div>
             <div className="flex gap-4">
@@ -111,7 +102,7 @@ const Header = () => {
                   className="inline-block"
                 >
                   <img
-                    className={`${ mode === "dark" ? "invert-85" : "invert-5"} w-6 h-6 object-contain text-custom-text-black dark:text-amber-300`}
+                    className={`${ mode === "dark" ? "invert-85" : "invert-5"} w-7 h-7 object-contain text-custom-text-black dark:text-amber-300`}
                     src={social.logo}
                     alt={social.altText}
                   />
@@ -119,7 +110,7 @@ const Header = () => {
               );
             })}
             </div>
-            <div className="text-lg xs:hidden xl:block">
+            <div className="text-lg hidden xs:block">
               {heroSection?.ctaHtml}{" "}
               <span className="text-custom-pink">{heroSection?.status}</span>{" "}
               {heroSection?.ctaHtml_2}{" "}
@@ -135,7 +126,7 @@ const Header = () => {
             </div>
           </div>
           <div className="flex items-center justify-center">
-            <div className="relative bg-custom-pink border-2 border-custom-pink rounded-4xl xs:hidden sm:flex  sm:translate-y-10 sm:translate-x-49 sm:w-20 sm:h-20 lg:translate-0 lg:w-85.25 lg:h-85.25 ">
+            <div className="relative bg-custom-pink border-2 border-custom-pink rounded-4xl hidden sm:flex  sm:translate-y-10 sm:translate-x-49 sm:w-20 sm:h-20 lg:translate-0 lg:w-85.25 lg:h-85.25 ">
               <img
                 src={heroSection.profileImage}
                 alt={heroSection.profileImage}

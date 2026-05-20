@@ -1,23 +1,11 @@
-import { useContext, useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import AppContext from "../contexts/AppContext";
-import { fetchData } from "../store/actions/dataActions";
 import { useElementOnScreen } from "../hooks/useElementOnScreen";
 
 const Profile = () => {
-  const { lang } = useContext(AppContext);
-
-  const dispatch = useDispatch();
-
-  const { content, loading } = useSelector((state) => state.data);
+  const { content} = useSelector((state) => state.data);
   const [targetRef, isVisible] = useElementOnScreen({ threshold: 0.1 });
 
-  useEffect(() => {
-    dispatch(fetchData(lang));
-  }, [lang, dispatch]);
-
-  if (loading)
-    return <div>{lang === "en" ? "Loading ..." : "Yükleniyor..."}</div>;
   if (!content) return null;
 
   const { profileSection } = content;
@@ -48,7 +36,7 @@ const Profile = () => {
                       className="flex gap-x-8 gap-y-7 font-inter text-lg leading-[100%] text-custom-text-black dark:text-white"
                     >
                       <h3 className="font-semibold flex-2">{item.name}</h3>
-                      <p className="font-normal flex-3">
+                      <p className="font-normal flex-3 leading-6">
                         {item.text}
                       </p>
                     </div>

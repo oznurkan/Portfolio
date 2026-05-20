@@ -31,33 +31,53 @@
             "skills": [
                 {
                     "id": "1",
+                    "name": "java",
+                    "icon": "/assets/skills/java.png"
+                },
+                {
+                    "id": "2",
+                    "name": "spring",
+                    "icon": "/assets/skills/spring.png"
+                },
+                {
+                    "id": "3",
+                    "name": "postgresql",
+                    "icon": "/assets/skills/elephant.png"
+                },
+                {
+                    "id": "4",
                     "name": "Javascript",
                     "icon": "/assets/skills/js.png"
                 },           
                 {
-                    "id": "2",
+                    "id": "5",
                     "name": "react",
                     "icon": "/assets/skills/react.png"
                 },
                 {
-                    "id": "3",
+                    "id": "6",
                     "name": "redux",
                     "icon": "/assets/skills/redux.png"
                 }, 
                 {
-                    "id": "4",
+                    "id": "7",
                     "name": "angular",
                     "icon": "/assets/skills/angular.png"
-                },
-                {
-                    "id": "5",
-                    "name": "java",
-                    "icon": "/assets/skills/java.png"
                 },               
                 {
-                    "id": "6",
+                    "id": "8",
                     "name": "c#",
                     "icon": "/assets/skills/c-sharp.png"
+                },
+                {
+                    "id": "9",
+                    "name": ".Net / ASP.Net",
+                    "icon": "/assets/skills/aspnet.png"
+                },
+                {
+                    "id": "10",
+                    "name": "python",
+                    "icon": "/assets/skills/python.png"
                 }
             ]
         },
@@ -102,27 +122,99 @@
             "projects": [
                 {
                     "id": "1",
+                    "name": "Newspaper",
+                    "description": "A dynamic and modular single-page news application developed by designing category and article data integration processes through a centralized Angular service architecture. A flexible and performant custom pipe structure was implemented to enable real-time filtering of content and categories based on user interaction. To simulate a real-time system, the backend/API connection was managed through HttpClient using a comprehensive manually generated JSON mock data source, aligned with asynchronous data flow principles.",
+                    "tags": ["angular", "pipe", "json server"],
+                    "githubLink": "https://github.com/oznurkan/Newspaper",
+                    "github": "Github",
+                    "imgComputer": "/assets/project/bilgisayar.png",
+                    "imgProject": "/assets/project/newspaper.png"
+                },
+                {
+                    "id": "2",
+                    "name": "E-Commerce",
+                    "description": "This project is developed as a study to examine an end-to-end e-commerce architecture. Development was carried out by analyzing relevant examples. It is a fully functional e-commerce platform that includes user management, dynamic cart operations, and step-by-step order completion processes. The project manages the entire order lifecycle through a user-friendly flow, while also providing an underlying architecture that tracks user actions in the background.",
+                    "tags": ["react", "C#", "asp.net", "sqLite", "mui-material"],
+                    "githubLink": "https://github.com/oznurkan/E-Commerce",
+                    "github": "Github",
+                    "imgComputer": "/assets/project/bilgisayar.png",
+                    "imgProject": "/assets/project/ecommerce.png"
+                },
+                {
+                    "id": "3",
+                    "name": "Conduit",
+                    "description": "A social platform project that provides a modern, responsive user experience on the frontend using React and Vite architecture. On the backend, it is fully integrated with ASP.NET Core Web API following layered architecture principles. Complex social interaction dynamics such as article content, dynamic comment threads, user following, and content likes have been implemented. Intensive user actions and data flows on the frontend are managed through Redux Toolkit for centralized state management, ensuring full data consistency between the database and the UI via asynchronous API integrations. Data fetching operations have been implemented, and the project is still under active development.",
+                    "tags": ["react", "C#", "asp.net", "sqLite", "mui-material"],
+                    "githubLink": "https://github.com/oznurkan/Conduit",
+                    "github": "Github",
+                    "imgComputer": "/assets/project/bilgisayar.png",
+                    "imgProject": "/assets/project/conduit.png"
+                },
+                {
+                    "id": "4",
+                    "name": "Safety Helmet Detection",
+                    "description": "An open-source dataset from Kaggle was combined with a custom dataset collected specifically for the project to create a comprehensive dataset containing the classes “head,” “helmet,” and “person.” The resulting images were structured into a standard format and split into training, validation, and test sets using Roboflow. Model training was conducted on Google Colab using the YOLOv5 architecture, producing successful weight files and training outputs. In the final stage of the project, a modern user interface was developed with PyQt5 to visualize detection results in real time.",
+                    "tags": ["python", "computer vision", "pyqt5", "yoloV5"],
+                    "githubLink": "https://github.com/oznurkan/Safety_Helmet_Detector",
+                    "github": "Github",
+                    "imgComputer": "/assets/project/bilgisayar.png",
+                    "imgProject": "/assets/project/helmet.png"
+                },
+                {
+                    "id": "5",
                     "name": "Portfolio",
-                    "description": "Featuring personal background information, this project employs Redux and middleware to unify state handling within a single structure.",
+                    "description": "Custom Redux middleware structures have been designed to manage asynchronous data flows, API integrations, and side effects in a clean and structured way. This approach enables loading and error states occurring during network requests to be centrally captured and reflected in the user interface in real time and without interruption.",
                     "tags": ["react", "redux", "middleware", "redux-thunk", "tailwindcss", "axios"],
                     "githubLink": "https://github.com/oznurkan/Portfolio",
-                    "github": "View on Github",
+                    "github": "Github",
                     "websiteLink": "https://portfolio-six-gray-zdj2cioys1.vercel.app/",
-                    "website": "Go to App",
+                    "website": "Web siteye git",
                     "imgComputer": "/assets/project/bilgisayar.png",
                     "imgProject": "/assets/project/portfolio.png"
                 },
                 {
-                    "id": "2",
+                    "id": "6",
                     "name": "Pizza Order Project",
-                    "description": "A React-based pizza ordering application featuring dynamic order customization and form validation to ensure all mandatory selections are completed before checkout.",
+                    "description": "A modular ordering interface that updates in real time based on user preferences and supports complex product variations. Mandatory fields such as size, crust selection, and extra ingredients are dynamically validated through React component state management. This validation architecture ensures that selected options are transferred to the cart with an accurate and error-free data structure, providing a secure ordering flow.",
                     "tags": ["react", "axios", "cypress", "router"],
                     "githubLink": "https://github.com/oznurkan/Pizza-Order-Project",
-                    "github": "View on Github",
+                    "github": "Github",
                     "websiteLink": "https://pizza-order-project-xi.vercel.app/",
-                    "website": "Go to App",
+                    "website": "Web siteye git",
                     "imgComputer": "/assets/project/bilgisayar.png",
                     "imgProject": "/assets/project/pizza.png"
+                },
+                {
+                    "id": "7",
+                    "name": "E-Commerce Web Project",
+                    "description": "A high-performance e-commerce interface developed with modern user experience principles. The project implements complex state management using React and Redux. Cart operations, product filtering, and user interactions have been made seamless without requiring page reloads. On the UI side, a fully responsive and modern visual design has been built using Tailwind CSS. The current implementation operates end-to-end with an external API and has been designed in a flexible and modular architecture, allowing full integration with a custom Java Spring Boot backend service currently under development.",
+                    "tags": ["react", "redux", "redux-thunk", "middleware", "axios", "tailwindcss", "authentication"],
+                    "githubLink": "https://github.com/oznurkan/Bandage",
+                    "github": "Github",
+                    "websiteLink": "https://bandage-lake-kappa.vercel.app/home",
+                    "website": "Web siteye git",
+                    "imgComputer": "/assets/project/bilgisayar.png",
+                    "imgProject": "/assets/project/bandage.png"
+                },
+                {
+                    "id": "8",
+                    "name": "Library System",
+                    "description": "It is a console application built on Object-Oriented Programming principles and based on user roles. The system is designed around two main actors: 'Librarian' and 'Reader'. Authorization separation between roles is achieved using inheritance and polymorphism. While readers' processes such as borrowing books, checking stock status, and returns are managed; administrative permissions such as inventory management and user tracking are defined for librarians. To maintain data consistency, business rules such as 'stock control' and 'borrowing limits' are simulated at the code level, creating an end-to-end functional management model.",
+                    "tags": ["java", "Object-Oriented Programming", "Console Application"],
+                    "githubLink": "https://github.com/oznurkan/LibrarySystem",
+                    "github": "Github",
+                    "imgComputer": "/assets/project/bilgisayar.png",
+                    "imgProject": "/assets/project/library.png"
+                },
+                {
+                    "id": "9",
+                    "name": "Twitter RESTApi",
+                    "description": "It is a scalable and secure backend service developed to meet the core functionalities of high-traffic social media platforms within the project. The system is built on the Spring Framework ecosystem and optimized according to dependency management and modularity principles. The Spring Security layer manages the authentication process through the HTTP Basic Authentication protocol and ensures user security through authorization mechanisms, while the use of Spring Data JPA provides a high-performance and sustainable structure for database operations. As a result, the application's complex business logic is managed through a clean and testable codebase.",
+                    "tags": ["java", "spring framework", "postgresql", "RESTful api"],
+                    "githubLink": "https://github.com/oznurkan/Twitter-RestApi",
+                    "github": "Github",
+                    "imgComputer": "/assets/project/bilgisayar.png",
+                    "imgProject": "/assets/project/twitter.png"
                 }
 
             ]
@@ -144,7 +236,7 @@
     "tr" :{
         "heroSection": {
             "greeting": "Merhaba !",
-            "intro":"Ben Öznur. Bilgisayar mühendisiyim. Ön yüz ve arka yüz alanlarında ürünler geliştiriyorum. Haydi tanışalım ! ",
+            "intro":"Ben Öznur. Bilgisayar mühendisiyim, ön yüz ve arka yüz alanlarında ürünler geliştiriyorum. Haydi tanışalım! ",
             "profileImage": "/assets/hero/profile.jpg",
             "socials": [
                 {
@@ -162,37 +254,63 @@
                 
             ],
             "ctaHtml": "Şu anda ",
-            "fields": "UX, UI ve Full-Stack Web Geliştirme ",
-            "callToAction": "Ekibinize beni katmak isterseniz ,benimle iletişime geçin ",
-            "ctaHtml_3": "  projeleri yapıyorum . ",
+            "fields": "Full-Stack Web Geliştirme",
+            "callToAction": "Ekibinize beni katmak isterseniz, benimle iletişime geçin ",
+            "ctaHtml_3": "  projeleri yapıyorum. ",
             "ctaEmailLink" : "oznurkan35@gmail.com"
         },
         "skillsSection": {
             "title": "Yetenekler",
             "skills": [
                 {
+                    "id": "1",
+                    "name": "java",
+                    "icon": "/assets/skills/java.png"
+                },
+                {
+                    "id": "2",
+                    "name": "spring",
+                    "icon": "/assets/skills/spring.png"
+                },
+                {
+                    "id": "3",
+                    "name": "postgresql",
+                    "icon": "/assets/skills/elephant.png"
+                },
+                {
+                    "id": "4",
                     "name": "Javascript",
                     "icon": "/assets/skills/js.png"
                 },           
                 {
+                    "id": "5",
                     "name": "react",
                     "icon": "/assets/skills/react.png"
                 },
                 {
+                    "id": "6",
                     "name": "redux",
                     "icon": "/assets/skills/redux.png"
                 }, 
                 {
+                    "id": "7",
                     "name": "angular",
                     "icon": "/assets/skills/angular.png"
-                },
-                {
-                    "name": "java",
-                    "icon": "/assets/skills/java.png"
                 },               
                 {
+                    "id": "8",
                     "name": "c#",
                     "icon": "/assets/skills/c-sharp.png"
+                },
+                {
+                    "id": "9",
+                    "name": ".Net / ASP.Net",
+                    "icon": "/assets/skills/aspnet.png"
+                },
+                {
+                    "id": "10",
+                    "name": "python",
+                    "icon": "/assets/skills/python.png"
                 }
             ]
         },
@@ -201,18 +319,22 @@
             "subtitle": "Bilgilerim",
             "technicalInformation": [
                 {
+                    "id": "1",
                     "name": "Doğum Tarihi :",
                     "text": "08.09.1999"
                 },
                 {
+                    "id": "2",
                     "name": "İkamet Şehri :",
                     "text": "İzmir"
                 },
                 {
+                    "id": "3",
                     "name": "Eğitim Durumu :",
                     "text": "Çanakkale Onsekiz Mart Üniversitesi, Bilgisayar Mühendisliği, Lisans, 2024"
                 },
                 {
+                    "id": "4",
                     "name": "Tercih Ettiği Rol :",
                     "text": "Bilgisayar Mühendisi"
                 }
@@ -233,8 +355,48 @@
             "projects": [
                 {
                     "id": "1",
+                    "name": "E-Gazete",
+                    "description": "Kategori ve makale veri entegrasyonu süreçlerini merkezi Angular servis mimarisiyle kurgulayarak geliştirdiğim, dinamik ve modüler bir single-page haber uygulamasıdır. İçeriklerin ve kategorilerin kullanıcı etkileşimine göre anlık olarak filtrelenmesi amacıyla esnek ve performanslı bir özel pipe yapısı uygulandı. Gerçek zamanlı bir sistem simülasyonu oluşturmak adına, projenin backend/API bağlantısını asenkron veri akışlarına uygun olarak, manuel ürettiğim kapsamlı bir JSON mock veri kaynağı üzerinden HttpClient ile yönettildi.",
+                    "tags": ["angular", "pipe", "json-web server"],
+                    "githubLink": "https://github.com/oznurkan/Newspaper",
+                    "github": "Github",
+                    "imgComputer": "/assets/project/bilgisayar.png",
+                    "imgProject": "/assets/project/newspaper.png"
+                },
+                {
+                    "id": "2",
+                    "name": "E-Ticaret",
+                    "description": "Bu proje de uçtan uca bir e-ticaret mimarisini incelemek üzere yapılmış bir projedir. İlgili örnekler incelenerek geliştirme gerçekleştirilmiştir. Kullanıcı yönetimi, dinamik sepet işlemleri ve adım adım sipariş tamamlama süreçlerini içeren tam fonksiyonel bir e-ticaret platformudur. Proje kargo/fiyat hesaplamalarından ödeme adımlarına kadar olan tüm sipariş döngüsünü kullanıcı dostu bir akışla yönetirken, arka planda kullanıcı aksiyonlarını takip eden bir mimari sunar.",
+                    "tags": ["react", "C#", "asp.net", "sqLite"],
+                    "githubLink": "https://github.com/oznurkan/E-Commerce",
+                    "github": "Github",
+                    "imgComputer": "/assets/project/bilgisayar.png",
+                    "imgProject": "/assets/project/ecommerce.png"
+                },
+                {
+                    "id": "3",
+                    "name": "Conduit",
+                    "description": "Frontend tarafında React ve Vite mimarisi kullanılarak modern, responsive bir kullanıcı deneyimi sunan. backend tarafında ise katmanlı mimari prensiplerine uygun olarak ASP.NET Core Web API ile uçtan uca entegre edilmiş, bir sosyal platform projesidir. Makale içerikleri, dinamik yorum satırları, kullanıcıların birbirini takip etmesi ve içerikleri beğenmesi gibi karmaşık sosyal etkileşim dinamikleri kurgulanmıştır. Yoğun kullanıcı aksiyonları ve veri akışları frontend tarafında Redux Toolkit merkezi durum yönetimi çatısı altında toplanarak, asenkron API entegrasyonları vasıtasıyla veritabanı ile arayüz arasında tam bir veri tutarlılığı sağlanmıştır. Projede veri çekme işlemleri gerçekleştirilmiştir projenin geliştirme aşaması devam etmektedir.",
+                    "tags": ["react", "C#", "asp.net", "sqLite"],
+                    "githubLink": "https://github.com/oznurkan/Conduit",
+                    "github": "Github",
+                    "imgComputer": "/assets/project/bilgisayar.png",
+                    "imgProject": "/assets/project/conduit.png"
+                },
+                {
+                    "id": "4",
+                    "name": "Baret Algılama Sistemi",
+                    "description": "Kaggle'dan alınan açık kaynaklı bir veri seti ile özel olarak topladığımız custom veri seti standart bir formatta birleştirilerek 'head', 'helmet' ve 'person' nesnelerini içeren kapsamlı bir veri kümesi oluşturulmuştur. Elde edilen görüntüler, Roboflow üzerinden eğitim, doğrulama ve test setlerine ayrılmıştır. Model eğitimi, Google Colab ortamında YOLOv5 mimarisi kullanılarak gerçekleştirilmiş ve başarılı bir şekilde ağırlık dosyaları ile eğitim çıktıları elde edilmiştir. Projenin son aşamasında ise, tespit sonuçlarını anlık olarak görselleştirmek amacıyla PyQt5 ile modern bir kullanıcı arayüzü geliştirilmiştir.",
+                    "tags": ["python", "computer vision", "pyqt5", "yoloV5"],
+                    "githubLink": "https://github.com/oznurkan/Safety_Helmet_Detector",
+                    "github": "Github",
+                    "imgComputer": "/assets/project/bilgisayar.png",
+                    "imgProject": "/assets/project/helmet.png"
+                },
+                {
+                    "id": "5",
                     "name": "Portfolio",
-                    "description": "Projede özgeçmiş bilgileri verilmiştir, proje içerisinde durum bilgilerini tek bir çatı altında toplayan redux ve middleware yapısı oluşturulmuştur",
+                    "description": "Asenkron veri akışlarını, API entegrasyonlarını ve yan etkileri temiz bir şekilde yönetmek adına özelleştirilmiş Redux Middleware yapıları kurgulanmıştır. Bu sayede, ağ istekleri esnasında oluşan yüklenme ve hata durumları merkezi olarak yakalanıp kullanıcı arayüzüne anlık ve kesintisiz bir şekilde yansıtılmaktadır",
                     "tags": ["react", "redux", "middleware", "redux-thunk", "tailwindcss", "axios"],
                     "githubLink": "https://github.com/oznurkan/Portfolio",
                     "github": "Github",
@@ -244,9 +406,9 @@
                     "imgProject": "/assets/project/portfolio.png"
                 },
                 {
-                    "id": "2",
-                    "name": "Pizza Şipariş Projesi",
-                    "description": "Projede istenilen pizza ile pizza siparişi alınan ve sipariş esnasında doldurulması zorunlu olan seçeneklerin kontrolünün yapıldığı bir react projesidir. ",
+                    "id": "6",
+                    "name": "Pizza Sipariş Projesi",
+                    "description": "Kullanıcı tercihlerine göre anlık olarak güncellenen ve karmaşık ürün varyasyonlarını içeren modüler bir sipariş arayüzüdür. Boyut, kenar seçimi ve ekstra malzemeler gibi zorunlu alanların kontrolü, React bileşenlerinin state yönetimiyle dinamik olarak denetlenmektedir. Seçilen opsiyonların sepete hatasız ve doğru veri yapısıyla aktarılmasını garanti altına alan bu validation mimarisi, güvenli bir sipariş döngüsü sunmaktadır.",
                     "tags": ["react", "axios", "cypress", "router"],
                     "githubLink": "https://github.com/oznurkan/Pizza-Order-Project",
                     "github": "Github",
@@ -254,6 +416,38 @@
                     "website": "Web siteye git",
                     "imgComputer": "/assets/project/bilgisayar.png",
                     "imgProject": "/assets/project/pizza.png"
+                },
+                {
+                    "id": "7",
+                    "name": "E-Ticaret Web Projesi",
+                    "description": "Modern kullanıcı deneyimi prensipleriyle geliştirilmiş, yüksek performanslı bir e-ticaret arayüzüdür. Projede React ve Redux kullanarak karmaşık bir state yönetimi yapılmıştır. Sepet işlemleri, ürün filtreleme ve kullanıcı etkileşimlerini sayfa yenilenmesine gerek kalmadan akıcı bir hale getirildi. Arayüz tarafında Tailwind CSS ile tamamen responsive ve modern bir görsel dil oluşturdum. Mevcut yapıda harici bir API ile uçtan uca çalışan uygulama, mimari olarak kendi geliştirmekte olduğum Java Spring Boot backend servisiyle tam entegre olacak şekilde esnek ve modüler bir yapıda tasarlanmıştır.",
+                    "tags": ["react", "redux", "redux-thunk", "middleware", "axios", "tailwindcss", "authentication"],
+                    "githubLink": "https://github.com/oznurkan/Bandage",
+                    "github": "Github",
+                    "websiteLink": "https://bandage-lake-kappa.vercel.app/home",
+                    "website": "Web siteye git",
+                    "imgComputer": "/assets/project/bilgisayar.png",
+                    "imgProject": "/assets/project/bandage.png"
+                },
+                {
+                    "id": "8",
+                    "name": "Kütüphane Yönetim Sistemi",
+                    "description": "Nesne Yönelimli Programlama prensipleri üzerine inşa edilmiş, kullanıcı rolleri tabanlı bir konsol uygulamasıdır. Sistem 'Kütüphaneci' ve 'Okuyucu' olmak üzere iki temel aktör üzerine kurgulanmıştır. Kalıtım ve polimorfizm kullanılarak roller arası yetki ayrımı sağlanmıştır. Okuyucuların kitap ödünç alma, stok durumunu sorgulama ve iade süreçleri yönetilirken kütüphanecilere envanter yönetimi ve kullanıcı takibi gibi idari yetkiler tanımlanmıştır. Veri tutarlılığını korumak adına 'stok kontrolü' ve 'ödünç verme limitleri' gibi iş kuralları kod seviyesinde simüle edilerek, uçtan uca çalışan bir yönetim modeli oluşturulmuştur",
+                    "tags": ["java", "Object-Oriented Programming", "Console Application"],
+                    "githubLink": "https://github.com/oznurkan/LibrarySystem",
+                    "github": "Github",
+                    "imgComputer": "/assets/project/bilgisayar.png",
+                    "imgProject": "/assets/project/library.png"
+                },
+                {
+                    "id": "9",
+                    "name": "Twitter RESTApi",
+                    "description": "Projede yüksek trafikli sosyal medya platformlarının temel işlevlerini karşılamak amacıyla geliştirilmiş, ölçeklenebilir ve güvenli bir backend servisidir. Sistem, Spring Framework ekosistemi üzerinde inşa edilerek, bağımlılık yönetimi ve modülerlik prensipleriyle optimize edilmiştir. Spring Security katmanı kimlik doğrulama sürecini HTTP Basic Authentication protokolü ile yönetilip ve yetkilendirme mekanizmalarıyla kullanıcı güvenliğini sağlanmıştır, Spring Data JPA kullanımıyla ise veritabanı işlemleri performanslı ve sürdürülebilir bir yapıya kavuşturulmuştur. Bu sayede, uygulamanın karmaşık iş mantığı temiz ve test edilebilir bir kod tabanıyla yönetilmektedir.",
+                    "tags": ["java", "spring framework", "postgresql", "RESTful api"],
+                    "githubLink": "https://github.com/oznurkan/Twitter-RestApi",
+                    "github": "Github",
+                    "imgComputer": "/assets/project/bilgisayar.png",
+                    "imgProject": "/assets/project/twitter.png"
                 }
 
             ]
